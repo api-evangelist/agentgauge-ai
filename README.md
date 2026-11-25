@@ -66,7 +66,7 @@
 
 AgentGauge provides an AI-readiness scanner that grades websites on how discoverable, trustworthy, and usable they are for AI agents and answer engines. It offers llms.txt listings, schema extraction, agent tools signals, and a watch service that re‑scans sites weekly, delivering actionable fixes. Users can paste any URL to see if AI can find and act on the site.
 
-**Areas:** AI · AgentReadiness · WebScanning · SEO · llms.txt
+**Areas:** Artificial Intelligence · Agent Readiness · Web Scanning · SEO · llms.txt
 
 ## AgentGauge on APIs.io
 
@@ -80,30 +80,36 @@ Everything profiled for AgentGauge is published on APIs.io rather than in this r
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [agentgauge-ai-mcp.yml](https://apis.io/servers/agentgauge-ai/agentgauge-ai-mcp-yml/)
+
 #### Security (2)
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agentgauge Ai Authentication](https://apis.io/security/agentgauge-ai/agentgauge-ai-authentication/)
-- [Agentgauge Ai Domain Security](https://apis.io/security/agentgauge-ai/agentgauge-ai-domain-security/)
+- [AgentGauge Authentication](https://apis.io/security/agentgauge-ai/agentgauge-ai-authentication/)
+- [AgentGauge Domain Security](https://apis.io/security/agentgauge-ai/agentgauge-ai-domain-security/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Agentgauge Ai Scopes](https://apis.io/scopes/agentgauge-ai/agentgauge-ai-scopes/)
+- [AgentGauge Scopes](https://apis.io/scopes/agentgauge-ai/agentgauge-ai-scopes/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Agentgauge Ai Plans Pricing](https://apis.io/plans/agentgauge-ai/agentgauge-ai-plans-pricing/)
+- [AgentGauge Plans Pricing](https://apis.io/plans/agentgauge-ai/agentgauge-ai-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [Agentgauge Ai Rate Limits](https://apis.io/rate-limits/agentgauge-ai/agentgauge-ai-rate-limits/)
+- [AgentGauge Rate Limits](https://apis.io/rate-limits/agentgauge-ai/agentgauge-ai-rate-limits/)
 
 ## Where to find this API
 
@@ -116,18 +122,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 19.4** — emerging · rubric 0.26.0 · scored 2026-10-31
+**Kin Score 21.2** — emerging · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 58.3 |
+| Discoverability | 65.0 |
 | Contract quality | 0.0 |
-| Contract governance | 16.4 |
+| Contract governance | 18.2 |
 | Operational transparency | 0.0 |
 | Developer ergonomics | 9.5 |
-| Access clarity | 40.0 |
+| Access clarity | 48.9 |
 
-**Agent readiness 5.6** — agent-aware
+**Agent readiness 8.7** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -142,7 +148,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Rate Limit Signal | documented (partial credit) |
 | Event Surface Described | — |
 | Agent Skills | — |
-| Well Known Catalog | — |
+| Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | — |
 | Dry Run Mode | — |
@@ -153,8 +159,11 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | na |
 | Operation Distinctiveness | na |
 | MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 26.4** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 20.9** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agentgauge-ai/](https://apis.io/providers/agentgauge-ai/).
 
